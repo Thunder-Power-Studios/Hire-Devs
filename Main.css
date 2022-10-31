@@ -1,0 +1,89 @@
+img.logo{
+	width:10rem;
+	height:10rem;
+}
+button{
+	cursor: pointer;
+    color:#b3afaf;
+	background-color:#403d3d;
+    text-align:left;
+    border-radius:8px;
+}
+body{
+    background-color:black;
+    color:#b3afaf;
+}
+.grid{
+  display:flex;
+  grid-template-columns:repeat(4, 1fr);
+  grid-column-gap:50px;
+  position:relative;
+}
+.footerbutton{
+    font-weight:bold;
+    font-family:'Permanent Marker',cursive;
+}
+h2{
+    margin:1px;
+}
+h4{
+    margin:1px;
+    color:#03befc;
+}
+h5{
+    margin:1px;
+}
+h3{
+    margin:1px;
+}
+h1{
+    margin:1px;
+}
+img.header{
+	width:50rem;
+	height:24rem;
+    background-color:white;
+}
+.apply{
+    color:white;
+	background-color:blue;
+    font-weight:bold;
+    font-family:'Permanent Marker',cursive;
+    width:90px;
+    height:50px;
+}
+.joblistingtop{
+    width:290px;
+    height:100px;
+}
+.TPSlogo{
+    width:100px;
+    height:93px;
+    text-align:left;
+    flex-basis:40%:
+}
+.Redditlogo{
+    width:200px;
+    height:35px;
+}
+.joblistingside{
+    width:290px;
+    height:100px;
+    display: flex;
+    text-align:left;
+}
+.Ownerlogo{
+    background-color:white;
+}
+.joblistingtop2{
+    width:290px;
+    height:120px;
+}
+
+
+
+@media screen and (max-width:600px) {
+.column {
+	width: 100%;
+}
+}
